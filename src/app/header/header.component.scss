@@ -1,0 +1,59 @@
+.header {
+  background-image: url("/assets/header_bg.svg");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+  align-items: stretch;
+}
+
+.header .content {
+  width: 100%;
+  margin: 0 250px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  font-size: 30px;
+  margin-left: 20px;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+}
+
+.navbar {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 40px;
+  width: 100%;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+// Font Style of the Navbar
+.navbar a {
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  color: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 40px;
+}
+
+.row {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+}
