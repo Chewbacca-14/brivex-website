@@ -13,7 +13,7 @@
 
 .header .content {
   width: 100%;
-  margin: 0 250px;
+  margin: 0 550px;
 }
 
 .logo {
@@ -52,8 +52,85 @@
   margin: 0 40px;
 }
 
+.contact-us-navbar {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  border-radius: 40px;
+  background-color: #2388ff;
+  border: none;
+  padding: 10px 30px;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+  margin-left: 100px;
+}
+
 .row {
   margin-top: 35px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  width: 600px;
+}
+
+.header-left .title {
+  width: 500px;
+}
+
+.header-left .title h1 {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 50px;
+}
+
+.header-left h1 span {
+  font-family: "Poppins";
+  font-weight: 800;
+  font-size: 50px;
+  background: linear-gradient(
+    to right,
+    rgb(35, 138, 255),
+    rgba(135, 198, 255, 1)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header img {
+  margin-left: 7px;
+}
+.header-left p {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 30px;
+}
+.header-left .buttons {
+  margin-top: 60px;
+}
+
+.header-left .buttons .main-cta {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  border-radius: 40px;
+  background-color: #2388ff;
+  border: none;
+  padding: 15px 40px;
+  align-items: center;
+  display: flex;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.header-left .buttons .main-cta :hover {
+  background-color: #1b6edc;
+}
+
+.header-left .buttons .main-cta img {
+  margin-left: 10px;
 }
