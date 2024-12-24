@@ -1,0 +1,28 @@
+footer {
+  width: 100%;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.logo h1 {
+  font-size: 30px;
+  margin-left: 20px;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+}
+p {
+  margin-right: 200px;
+  margin-left: 100px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #6d748b;
+}
