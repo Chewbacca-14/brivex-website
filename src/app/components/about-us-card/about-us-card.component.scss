@@ -1,0 +1,29 @@
+.main-space {
+  width: 375px;
+  height: 387px;
+  margin: 7.5px;
+  background-repeat: no-repeat;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* This will push the content to the top and bottom */
+}
+
+h2 {
+  margin: 0; /* Remove default margin from h2 */
+}
+
+.content-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+  height: 302px;
+  background-image: url("/assets/about-bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
