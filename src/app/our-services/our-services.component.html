@@ -2,10 +2,9 @@
   <span class="common-text">Naše</span>
   <span class="gradient-text">Služby</span>
   <div class="container-cards">
-    <app-service-card [srcImage]="'assets/landing-service.png'" [svgSrcImage]="'assets/svg/landing.svg'" [title]="'Landing Page'" [description]="'Jsme dva nadšenci do IT a technologií, kteří věří, že inovace mají sílu měnit svět. '"></app-service-card>
-    <app-service-card></app-service-card>
-    <app-service-card></app-service-card>
-    <app-service-card></app-service-card>
+    <ng-container *ngFor="let service of services">
+      <app-service-card [srcImage]="service.imgSrc" [svgSrcImage]="service.svgImgSrc" [title]="service.title" [description]="service.description"></app-service-card>
+    </ng-container>
   </div>
 </div>
 
