@@ -5,6 +5,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutUsCardComponent } from './components/about-us-card/about-us-card.component';
 import { TechnologiesComponent } from './technologies/technologies.component';
+import { OurServicesComponent } from './our-services/our-services.component';
 
 @Component({
   selector: 'app-root',
@@ -14,6 +15,7 @@ import { TechnologiesComponent } from './technologies/technologies.component';
     AboutUsComponent,
     FooterComponent,
     TechnologiesComponent,
+    OurServicesComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',

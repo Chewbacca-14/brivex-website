@@ -1,0 +1,10 @@
+<div class="background-our-services">
+  <span class="common-text">Naše</span>
+  <span class="gradient-text">Služby</span>
+  <div class="container-cards">
+    <ng-container *ngFor="let service of services">
+      <app-service-card [srcImage]="service.imgSrc" [svgSrcImage]="service.svgImgSrc" [title]="service.title" [description]="service.description"></app-service-card>
+    </ng-container>
+  </div>
+</div>
+
