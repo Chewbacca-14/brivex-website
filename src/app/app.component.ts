@@ -6,6 +6,8 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutUsCardComponent } from './components/about-us-card/about-us-card.component';
 import { TechnologiesComponent } from './technologies/technologies.component';
 import { OurServicesComponent } from './our-services/our-services.component';
+import { WhyUsComponent } from './why-us/why-us.component';
+import { WhyUsCardComponent } from './shared/why-us-card/why-us-card.component';
 
 @Component({
   selector: 'app-root',
@@ -16,6 +18,8 @@ import { OurServicesComponent } from './our-services/our-services.component';
     FooterComponent,
     TechnologiesComponent,
     OurServicesComponent,
+    WhyUsComponent,
+    WhyUsCardComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
