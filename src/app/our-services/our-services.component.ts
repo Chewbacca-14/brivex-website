@@ -6,8 +6,7 @@ import {CommonModule} from "@angular/common";
   selector: 'app-our-services',
   standalone: true,
   imports: [
-    ServiceCardComponent,
-    CommonModule
+    ServiceCardComponent, CommonModule
   ],
   templateUrl: './our-services.component.html',
   styleUrl: './our-services.component.scss'
