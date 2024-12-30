@@ -1,6 +1,14 @@
-<div class="main-space" [ngStyle]="{'background-image': 'url(' + backgroundImage + ')'}">
-    <h2>test</h2>
-    <div class="content-wrapper">
-        <div class="card" [ngStyle]="{'background-image': 'url(' + backgroundImage + ')'}"></div>
+<div class="main-space">
+    <div class="avatar" [ngStyle]="{'background-image': 'url(' + avatar + ')'}"></div>
+    <div class="card" [ngStyle]="{'background-image': 'url(' + backgroundImage + ')'}">
+        <div class="content-wrapper">
+            <h2>{{nameSurname}}</h2>
+            <p>{{position}}</p>
+            <div class="contact-row">
+                <ng-container *ngFor="let contact of contacts">
+                    <app-contact-bubble [icon]="contact.icon" [bgColor]="contact.bgColor"></app-contact-bubble>
+                  </ng-container>              
+            </div>
+        </div>
     </div>
 </div>

@@ -20,7 +20,8 @@
 .content {
   position: relative;
   z-index: 2;
-  margin: 130px 550px;
+  margin: 130px 20%;
+  margin-bottom: 0;
 }
 
 img {
@@ -72,5 +73,4 @@ app-why-us-card {
 
 .cards-container app-why-us-card:nth-child(4) {
   flex: 1 1 70%;
-  align-self: flex-end;
 }
