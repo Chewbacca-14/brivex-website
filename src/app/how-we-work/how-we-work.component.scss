@@ -1,6 +1,9 @@
 .main-container {
   display: flex;
   flex-direction: row;
+  height: 70vh;
+  background-image: url("/assets/svg/why-us-bg.svg");
+  background-size: cover;
 }
 
 .left-column {
@@ -12,4 +15,21 @@
 
 .right-column {
   width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.stepper-outer-container {
+  width: 45%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fffdfd;
+  margin-right: 13%;
+  border-radius: 15px;
+}
+
+.left-column-content {
+  width: 75%;
 }
