@@ -8,6 +8,7 @@ import { TechnologiesComponent } from './technologies/technologies.component';
 import { OurServicesComponent } from './our-services/our-services.component';
 import { WhyUsComponent } from './why-us/why-us.component';
 import { WhyUsCardComponent } from './shared/why-us-card/why-us-card.component';
+import {HowWeWorkComponent} from "./how-we-work/how-we-work.component";
 
 @Component({
   selector: 'app-root',
@@ -20,6 +21,7 @@ import { WhyUsCardComponent } from './shared/why-us-card/why-us-card.component';
     OurServicesComponent,
     WhyUsComponent,
     WhyUsCardComponent,
+    HowWeWorkComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
