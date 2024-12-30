@@ -9,6 +9,7 @@ import { OurServicesComponent } from './feature/our-services/our-services.compon
 import { WhyUsComponent } from './feature/why-us/why-us.component';
 import { WhyUsCardComponent } from './shared/components/why-us-card/why-us-card.component';
 import {HowWeWorkComponent} from "./feature/how-we-work/how-we-work.component";
+import {ContactsComponent} from "./feature/contacts/contacts.component";
 
 @Component({
   selector: 'app-root',
@@ -22,6 +23,7 @@ import {HowWeWorkComponent} from "./feature/how-we-work/how-we-work.component";
     WhyUsComponent,
     WhyUsCardComponent,
     HowWeWorkComponent,
+    ContactsComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
