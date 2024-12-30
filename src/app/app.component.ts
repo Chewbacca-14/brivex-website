@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { HeaderComponent } from './header/header.component';
-import { AboutUsComponent } from './about-us/about-us.component';
-import { FooterComponent } from './footer/footer.component';
-import { AboutUsCardComponent } from './components/about-us-card/about-us-card.component';
-import { TechnologiesComponent } from './technologies/technologies.component';
-import { OurServicesComponent } from './our-services/our-services.component';
-import { WhyUsComponent } from './why-us/why-us.component';
-import { WhyUsCardComponent } from './shared/why-us-card/why-us-card.component';
-import {HowWeWorkComponent} from "./how-we-work/how-we-work.component";
+import { HeaderComponent } from './layout/header/header.component';
+import { AboutUsComponent } from './feature/about-us/about-us.component';
+import { FooterComponent } from './layout/footer/footer.component';
+import { AboutUsCardComponent } from './shared/components/about-us-card/about-us-card.component';
+import { TechnologiesComponent } from './feature/technologies/technologies.component';
+import { OurServicesComponent } from './feature/our-services/our-services.component';
+import { WhyUsComponent } from './feature/why-us/why-us.component';
+import { WhyUsCardComponent } from './shared/components/why-us-card/why-us-card.component';
+import {HowWeWorkComponent} from "./feature/how-we-work/how-we-work.component";
 
 @Component({
   selector: 'app-root',

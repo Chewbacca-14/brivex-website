@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CardImgComponent } from '../components/card-img/card-img.component';
+import { CardImgComponent } from '../../shared/components/card-img/card-img.component';
 import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-technologies',

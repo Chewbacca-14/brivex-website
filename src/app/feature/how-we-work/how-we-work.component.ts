@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import {LogoCardComponent} from "../shared/logo-card/logo-card.component";
-import {StepperComponent} from "../shared/stepper/stepper.component";
+import {LogoCardComponent} from "../../shared/components/logo-card/logo-card.component";
+import {StepperComponent} from "../../shared/components/stepper/stepper.component";
 
 @Component({
   selector: 'app-how-we-work',

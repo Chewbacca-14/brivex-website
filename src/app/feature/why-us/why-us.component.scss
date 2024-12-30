@@ -12,9 +12,9 @@
   height: 100%;
   z-index: 0;
   object-fit: cover;
-  object-fit: cover; /* Ensures the image covers the entire container */
-  background-position: center center; /* Centers the background image */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
+  object-fit: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .content {
@@ -58,21 +58,19 @@ h1 span {
 
 .cards-container {
   display: flex;
-  flex-wrap: wrap; /* Allows wrapping of items */
-  justify-content: flex-start; /* Aligns the items to the left */
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 app-why-us-card {
-  margin-bottom: 20px; /* Space between the cards */
+  margin-bottom: 20px;
 }
 
-/* Three cards on the left */
 .cards-container app-why-us-card:nth-child(-n + 3) {
-  flex: 1 1 30%; /* Take 30% of the width, adjust as necessary */
+  flex: 1 1 30%;
 }
 
-/* One card on the right */
 .cards-container app-why-us-card:nth-child(4) {
-  flex: 1 1 70%; /* Take 70% of the width */
-  align-self: flex-end; /* Align the card to the bottom */
+  flex: 1 1 70%;
+  align-self: flex-end;
 }

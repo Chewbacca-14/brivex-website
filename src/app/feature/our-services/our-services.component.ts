@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {ServiceCardComponent} from "../shared/service-card/service-card.component";
+import {ServiceCardComponent} from "../../shared/components/service-card/service-card.component";
 import {CommonModule} from "@angular/common";
 
 @Component({

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AboutUsCardComponent } from '../components/about-us-card/about-us-card.component';
+import { AboutUsCardComponent } from '../../shared/components/about-us-card/about-us-card.component';
 
 @Component({
   selector: 'app-about-us',

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { WhyUsCardComponent } from '../shared/why-us-card/why-us-card.component';
+import { WhyUsCardComponent } from '../../shared/components/why-us-card/why-us-card.component';
 import { CommonModule } from '@angular/common';
 
 @Component({

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {CardImgComponent} from "../../components/card-img/card-img.component";
+import {CardImgComponent} from "../card-img/card-img.component";
 import {NgForOf} from "@angular/common";
 
 @Component({
