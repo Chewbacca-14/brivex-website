@@ -33,7 +33,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
   height: 40px;
   width: 100%;
 }
@@ -130,4 +129,9 @@
 
 .header-left .buttons .main-cta img {
   margin-left: 10px;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
 }
