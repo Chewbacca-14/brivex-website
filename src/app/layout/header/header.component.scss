@@ -13,7 +13,7 @@
 
 .header .content {
   width: 100%;
-  margin: 0 550px;
+  margin: 0 5% 0 5%;
 }
 
 .logo {
@@ -62,7 +62,6 @@
   border: none;
   padding: 10px 30px;
   transition: background-color 0.2s ease, box-shadow 0.2s ease;
-  margin-left: 100px;
 }
 
 .row {
@@ -73,11 +72,9 @@
 }
 
 .header-left {
-  width: 600px;
 }
 
 .header-left .title {
-  width: 500px;
 }
 
 .header-left .title h1 {

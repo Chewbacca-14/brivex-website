@@ -3,7 +3,7 @@
 }
 
 .card {
-  margin: 0 550px;
+  margin: 0 5% 0 5%;
   background-color: #278aff;
   border-radius: 60px;
   position: relative;
@@ -12,6 +12,7 @@
 .card img {
   position: absolute;
   z-index: 1;
+  width: 100%;
 }
 
 .card .content {
