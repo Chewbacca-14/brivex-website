@@ -3,7 +3,7 @@
   <p>These contacts are used to inform about orders</p>
   <form (ngSubmit)="onSubmit()" [formGroup]="contactForm">
     <div class="form-field">
-      <label for="telephone">Telephone</label>
+     
       <input id="telephone" formControlName="telephone" type="tel" placeholder="Enter your phone number">
       <div *ngIf="telephone.invalid && (telephone.dirty || telephone.touched)" class="error">
         <small *ngIf="telephone.errors?.['required']">Telephone is required.</small>
@@ -12,7 +12,7 @@
     </div>
 
     <div class="form-field">
-      <label for="email">Email</label>
+    
       <input id="email" formControlName="email" type="email" placeholder="Enter your email">
       <div *ngIf="email.invalid && (email.dirty || email.touched)" class="error">
         <small *ngIf="email.errors?.['required']">Email is required.</small>

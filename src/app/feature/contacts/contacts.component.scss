@@ -1,10 +1,41 @@
 .contact-container {
   display: flex;
   flex-direction: row;
-  background-color: #F6F8FC;
-  border-radius: 20px;
-  height: 50vh;
+  background-color: #f6f8fc;
+  border-radius: 60px;
   width: 65vw;
+  padding: 50px;
+}
+
+.gradient-text {
+  font-family: "Poppins";
+  font-weight: 800;
+  font-size: 50px;
+  background: linear-gradient(
+    to right,
+    rgb(35, 138, 255),
+    rgba(135, 198, 255, 1)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 50px;
+  color: #19213d;
+  margin: 0;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  max-width: 600px;
+  margin-top: 20px;
+  margin-bottom: 90px;
 }
 
 .left-side {
@@ -19,11 +50,20 @@
 .contact-card {
   background-color: white;
   width: fit-content;
-  padding: 10px;
-  border-radius: 10px;
-  margin-top: 1%;
+  padding: 10px 27px;
+  border-radius: 60px;
+  margin-top: 20px;
   display: flex;
   height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-card span {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 10px;
 }
 
 .contact-title {
@@ -41,15 +81,15 @@
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  background-color: #2889FC;
+  background-color: #2889fc;
   width: 40px;
   height: 40px;
   margin-left: 10px;
 }
 
 .contact-icon img {
-  width: 24px;
-  height: 24px;
+  width: 31px;
+  height: 31px;
   margin-left: 10px;
 }
 
