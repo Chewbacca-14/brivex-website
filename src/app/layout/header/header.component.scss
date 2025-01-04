@@ -4,6 +4,7 @@
   background-position: center;
   height: 700px;
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   border-bottom-left-radius: 80px;
@@ -12,7 +13,6 @@
 }
 
 .header .content {
-  width: 100%;
   margin: 0 20%;
 }
 
@@ -30,12 +30,13 @@
 
 .navbar {
   margin-top: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
   height: 40px;
-  width: 100%;
 }
 
 .navbar ul {
@@ -49,7 +50,7 @@
   color: inherit;
   font-size: 16px;
   font-weight: 500;
-  margin: 0 40px;
+  margin: 0 20px;
 }
 
 .contact-us-navbar {
@@ -62,7 +63,7 @@
   border: none;
   padding: 10px 30px;
   transition: background-color 0.2s ease, box-shadow 0.2s ease;
-  margin-left: 100px;
+  margin-left: 20px;
 }
 
 .row {
@@ -133,4 +134,9 @@
 
 .header-left .buttons .main-cta img {
   margin-left: 10px;
+}
+
+.header-img {
+  max-width: 60%;
+  height: auto;
 }
