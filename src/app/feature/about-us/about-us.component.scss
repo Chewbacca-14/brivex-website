@@ -16,3 +16,13 @@ p {
   margin-top: 20px;
   max-width: 600px;
 }
+
+@media (max-width: 768px) {
+  .about-us-title {
+    width: 80%;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+}
