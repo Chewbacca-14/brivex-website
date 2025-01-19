@@ -1,12 +1,16 @@
 <div class="background-our-services">
   <div class="container-text">
-    <span class="common-text">Naše</span>
-    <span class="gradient-text">Služby</span>
+    <h1>
+      Naše
+      <span class="">Služby</span>
+  </h1>
+   
+
     <p class="common-text-description">Jsme dva nadšenci do IT a technologií, kteří věří, že inovace mají sílu měnit svět. S vášní pro technologie a neustálou touhou objevovat nové možnosti se snažíme přinášet svěží a efektivní řešení do IT světa. Rádi se pouštíme. </p>
   </div>
   <div class="container-cards">
     <ng-container *ngFor="let service of services">
-      <app-service-card [srcImage]="service.imgSrc" [svgSrcImage]="service.svgImgSrc" [title]="service.title" [description]="service.description"></app-service-card>
+      <app-service-card [srcImage]="service.imgSrc" [title]="service.title" [description]="service.description"></app-service-card>
     </ng-container>
   </div>
 </div>

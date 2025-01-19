@@ -1,26 +1,25 @@
-.gradient-text {
-  font-size: 2em;
-  font-weight: bold;
+h1 span {
+  font-family: "Poppins";
+  font-weight: 800;
+  font-size: 50px;
   background: linear-gradient(
-      to right,
-      rgb(35, 138, 255),
-      rgba(135, 198, 255, 1)
+    to right,
+    rgb(35, 138, 255),
+    rgba(135, 198, 255, 1)
   );
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-align: center;
 }
-
-.common-text {
-  font-size: 2em;
-  font-weight: bold;
-  text-align: center;
-  color: black;
+h1 {
+  font-size: 50px;
+  font-weight: 500;
+  font-family: "Poppins";
 }
 
 .background-our-services {
-  background-color: #F6F8FC;
-  background-image: url('/assets/background-our-services.jpg');
+  background-color: #f6f8fc;
+  background-image: url("/assets/background-our-services.jpg");
   background-size: cover;
   background-position: center;
   border: 1px solid #ffffff;
@@ -40,4 +39,12 @@
 
 .common-text-description {
   max-width: 40%;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 20px;
+  max-width: 600px;
 }
