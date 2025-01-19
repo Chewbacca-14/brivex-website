@@ -1,5 +1,6 @@
 .form-container {
   width: 70%;
+  width: 70%;
   margin: 0 auto;
   padding: 20px;
   border-radius: 20px;
@@ -11,15 +12,15 @@ h2 {
   text-align: left;
 }
 
-.form-field {
-  margin-bottom: 15px;
-}
-
-label {
-  font-size: 14px;
-  font-weight: bold;
-  display: block;
-  margin-bottom: 5px;
+.form-field input {
+  margin-bottom: 25px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  flex: 1;
+  font-size: 1em;
+  background: transparent;
+  padding: 5px 0;
+  color: #333;
 }
 
 input {
@@ -34,11 +35,12 @@ button {
   width: 100%;
   padding: 10px;
   font-size: 16px;
-  background-color: #2889FC;
+  background-color: #2889fc;
   color: white;
   border: none;
   border-radius: 24px;
   cursor: pointer;
+  margin-top: 60px;
 }
 
 button:disabled {

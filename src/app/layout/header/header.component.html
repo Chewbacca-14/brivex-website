@@ -1,6 +1,7 @@
 <header class="header">
-    <div class="content">
-        <nav class="navbar">
+  <button class="menu-toggle" (click)="toggleMenu()">☰</button>
+  <div class="content">
+        <nav [class.open]="isMenuOpen" class="navbar">
             <div class="logo">
                 <img src="/assets/logo.svg" alt="Logo">
                 <h1>BrivexTech</h1>
