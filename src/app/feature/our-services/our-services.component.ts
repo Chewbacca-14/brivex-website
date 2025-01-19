@@ -16,26 +16,26 @@ export class OurServicesComponent {
     {
       title: 'Landing Page',
       description: 'Jsme dva nadšenci do IT a technologií, kteří věří, že inovace mají sílu měnit svět. ',
-      imgSrc: '/assets/landing-service.png',
-      svgImgSrc: '/assets/svg/landing.svg'
+      imgSrc: '/assets/our-services/co-work.png',
+      svgImgSrc: '/assets/our-services/tablet-icon.png'
     },
     {
       title: 'Mobilní aplikace',
       description: 'Jsme dva nadšenci do IT a technologií, kteří věří, že inovace mají sílu měnit svět. ',
-      imgSrc: '/assets/mobile-service.png',
-      svgImgSrc: '/assets/svg/mobile.svg'
+      imgSrc: '/assets/our-services/mobile-stats.png',
+      svgImgSrc: '/assets/our-services/mobile-icon.png'
     },
     {
       title: 'Webové stránky',
       description: 'Jsme dva nadšenci do IT a technologií, kteří věří, že inovace mají sílu měnit svět. ',
-      imgSrc: '/assets/stocks.png',
-      svgImgSrc: '/assets/svg/terminal.svg'
+      imgSrc: '/assets/our-services/analytics.png',
+      svgImgSrc: '/assets/our-services/computer-icon.png'
     },
     {
       title: 'Webové aplikace',
       description: 'Jsme dva nadšenci do IT a technologií, kteří věří, že inovace mají sílu měnit svět. ',
-      imgSrc: '/assets/web-service.png',
-      svgImgSrc: '/assets/svg/web.svg'
+      imgSrc: '/assets/our-services/coffee-program.png',
+      svgImgSrc: '/assets/our-services/terminal-icon.png'
     }
   ]
 }
