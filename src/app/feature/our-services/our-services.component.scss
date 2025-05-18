@@ -1,50 +1,71 @@
-h1 span {
-  font-family: "Poppins";
-  font-weight: 800;
-  font-size: 50px;
-  background: linear-gradient(
-    to right,
-    rgb(35, 138, 255),
-    rgba(135, 198, 255, 1)
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-h1 {
-  font-size: 50px;
-  font-weight: 500;
-  font-family: "Poppins";
+@keyframes fadeInSlide {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-.background-our-services {
-  background-color: #f6f8fc;
-  background-image: url("/assets/background-our-services.jpg");
-  background-size: cover;
-  background-position: center;
-  border: 1px solid #ffffff;
-}
-
-.container-cards {
+.main-content {
+  margin-top: 120px;
   display: flex;
-  flex-direction: row;
-  gap: 2%;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-.container-text {
-  margin-bottom: 5%;
-  margin-left: 5%;
-}
-
-.common-text-description {
-  max-width: 40%;
+h2 {
+  margin: 0;
+  font-family: "Geist", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  color: #242424;
+  margin-bottom: 20px;
+  animation: fadeInSlide 1.2s ease-out forwards;
+  opacity: 0;
 }
 
 p {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  margin-top: 20px;
-  max-width: 600px;
+  align-items: center;
+  max-width: 800px;
+  margin: 0;
+  line-height: 1.5rem;
+  color: #3f3f3fe0;
+  font-weight: 300;
+  font-size: 1rem;
+  font-family: "Generalsans", sans-serif;
+  margin-bottom: 40px;
+  text-align: center;
+  animation: fadeInSlide 1.2s ease-out forwards;
+  opacity: 0;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Max 3 columns */
+  gap: 25px;
+  padding: 20px;
+  margin: 0 auto; /* center horizontally */
+  justify-content: center; /* center grid items inside container */
+  animation: fadeInSlide 1.2s ease-out forwards;
+  opacity: 0;
+}
+
+/* Responsive: 2 columns on medium screens */
+@media (max-width: 900px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 700px; /* adjust max-width accordingly */
+  }
+}
+
+/* Responsive: 1 column on small screens */
+@media (max-width: 600px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+    padding: 10px 20px;
+  }
 }

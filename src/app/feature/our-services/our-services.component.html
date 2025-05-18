@@ -1,17 +1,14 @@
-<div class="background-our-services">
-  <div class="container-text">
-    <h1>
-      Naše
-      <span class="">Služby</span>
-  </h1>
-   
 
-    <p class="common-text-description">Jsme dva nadšenci do IT a technologií, kteří věří, že inovace mají sílu měnit svět. S vášní pro technologie a neustálou touhou objevovat nové možnosti se snažíme přinášet svěží a efektivní řešení do IT světa. Rádi se pouštíme. </p>
-  </div>
-  <div class="container-cards">
-    <ng-container *ngFor="let service of services">
-      <app-service-card [srcImage]="service.imgSrc" [title]="service.title" [description]="service.description"></app-service-card>
-    </ng-container>
-  </div>
+<div class="main-content">
+  <h2>Naše Služby</h2>
+  <p>Jsme nadšenci do IT a technologií, kteří věří, že inovace mají sílu měnit svět. S vášní pro technologie a neustálou touhou objevovat nové možnosti se snažíme přinášet svěží a efektivní řešení do IT světa. </p>
+  <div class="card-grid">
+  <app-product-card
+    *ngFor="let card of cards"
+    [icon]="card.icon"
+    [title]="card.title"
+    [description]="card.description"
+  ></app-product-card>
+</div>
 </div>
 

@@ -1,45 +1,51 @@
 import { Component } from '@angular/core';
-import { ServiceCardComponent } from '../../shared/components/service-card/service-card.component';
 import { CommonModule } from '@angular/common';
+import { ProductCardComponent } from '../../shared/components/product-card/product-card.component';
 
 @Component({
   selector: 'app-our-services',
   standalone: true,
-  imports: [ServiceCardComponent, CommonModule],
+  imports: [CommonModule, ProductCardComponent],
   templateUrl: './our-services.component.html',
   styleUrl: './our-services.component.scss',
 })
 export class OurServicesComponent {
-  services: Service[] = [
+  cards = [
     {
-      title: 'Landing Page',
+      icon: '/assets/icons/mobile.png',
+      title: 'Mobilní aplikace',
       description:
-        'Navrhujeme moderní a přesvědčivé landing page, které efektivně přetvářejí návštěvníky na vaše zákazníky. Na míru upravený design, texty a responzivita zajistí optimální uživatelský zážitek.',
-      imgSrc: '/assets/our-services/landing-page.png',
+        'Tvoříme rychlé a spolehlivé mobilní aplikace pro iOS i Android pomocí Flutteru',
     },
     {
-      title: 'Mobilní a Web Aplikace',
-      description:
-        'Vytváříme cross-platformní mobilní a webové aplikace, které poskytují bezproblémovou funkčnost na všech zařízeních. Design, funkčnost a přizpůsobení jsou vždy na míru vašim potřebám.',
-      imgSrc: '/assets/our-services/mobile-apps.png',
-    },
-    {
+      icon: '/assets/icons/internet.png',
       title: 'Webové stránky',
       description:
-        'Klademe důraz na vytvoření moderních webových stránek a e-shopů, které zaujmou návštěvníky a usnadní nákupní proces. Naše řešení vždy zahrnují individuální přístup k designu, funkcionalitě a přizpůsobení.',
-      imgSrc: '/assets/our-services/web-apps.png',
+        'Navrhujeme moderní, přehledné a responzivní webové stránky přesně podle potřeb vašeho projektu',
     },
     {
-      title: 'UI/UX Design',
+      icon: '/assets/icons/coding.png',
+      title: 'Webové aplikace',
       description:
-        'Navrhujeme intuitivní UI/UX design, který nejen zajišťuje vynikající uživatelský zážitek, ale také zvyšuje efektivitu vašich aplikací a webů. Vždy se zaměřujeme na přizpůsobení specifickým potřebám vašich uživatelů.',
-      imgSrc: '/assets/our-services/webs.png',
+        'Vyvíjíme chytré webové aplikace, které zefektivní vaše podnikání a ušetří čas',
+    },
+    {
+      icon: '/assets/icons/design.png',
+      title: 'UI/UX',
+      description:
+        'Vytváříme design, který potěší oko i uživatele – funkční, intuitivní a estetický',
+    },
+    {
+      icon: '/assets/icons/website.png',
+      title: 'Landing Page',
+      description:
+        'Optimalizované vstupní stránky, které zaujmou, vysvětlí a zvýší vaše konverze',
+    },
+    {
+      icon: '/assets/icons/interview.png',
+      title: 'Konzultace',
+      description:
+        'Pomůžeme vám najít ideální digitální řešení a strategii pro růst vašeho projektu',
     },
   ];
-}
-
-interface Service {
-  title: string;
-  description: string;
-  imgSrc: string;
 }
