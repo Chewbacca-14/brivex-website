@@ -1,14 +1,10 @@
 <a class="card">
-  <div class="card__content">
+    <div class="card__image-container">
+        <img alt="card" [src]="srcImage" class="card__image">
+    </div>
     <div>
-      <h3 class="card-title">{{title}}</h3>
-      <p>{{description}}</p>
+        <h3 class="card-title">{{title}}</h3>
+        <div class="divider"></div>
+        <p>{{description}}</p>
     </div>
-    <div class="card__sub-image-container">
-      <img class="card__sub-image" alt="cardSvg" [src]="svgSrcImage">
-    </div>
-  </div>
-  <div class="card__image-container">
-    <img alt="card" [src]="srcImage" class="card__image">
-  </div>
 </a>
