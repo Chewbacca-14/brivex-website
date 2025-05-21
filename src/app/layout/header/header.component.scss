@@ -8,9 +8,23 @@
     transform: translateY(0);
   }
 }
+.header-wrapper {
+  background-image: url("https://cdn.prod.website-files.com/67fff553ec88de21fc1fd835/67fff554ec88de21fc1fdf90_Modern%20-%202.svg");
+  background-position: 50% 0;
+  background-color: #fcfcfc;
+  background-repeat: no-repeat;
+  background-size: auto;
+  flex-flow: column;
+  width: 100%;
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  position: relative;
+  padding: 20px 0;
+}
 
-
-
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -50,7 +64,6 @@ nav ul {
 nav a {
   color: black;
   text-decoration: none;
-
 }
 
 .menu-toggle {
@@ -86,7 +99,7 @@ nav a {
 .after-header-text {
   padding: 2rem;
   text-align: center;
-  background-color: #f9f9f9;
+
   margin: 0 auto;
 }
 
@@ -230,7 +243,6 @@ nav a {
   gap: 1rem;
 }
 
-
 nav.open {
   left: 0;
 }
@@ -249,7 +261,6 @@ nav.open {
 }
 
 @media (max-width: 768px) {
-
   .nav-container {
     flex-direction: column;
     gap: 10px;
